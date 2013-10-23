@@ -46,7 +46,9 @@
 					var char:int = c;
 					tile.textFieldB.text = "";
 					
-					//DO A B C .. X Y Z AA AB AC etc. 
+					//DO A B C .. X Y Z AA BB CC etc.
+					//Yes you could fit much more with a pattern like AA AB AC, 
+					//but I find that this pattern easier to read at a glance
 					while(char >= 0)
 					{
 						char -= 26;
